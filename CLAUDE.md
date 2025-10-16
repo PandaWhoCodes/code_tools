@@ -46,3 +46,88 @@ Since this is a content repository:
 - Focus on content quality and organization
 - Keep information current and accurate
 - Ensure all links are working
+
+## Updating README.md with Latest Tools
+
+When asked to update the list with new tools/information:
+
+1. **Research Sources**
+   - Use WebSearch to find latest Stack Overflow Developer Survey results
+   - Search for official tool changelogs and release notes
+   - Look for "[tool name] 2025 new features" or "[tool name] updates [current year]"
+   - Check Model Context Protocol ecosystem for new MCP servers
+   - Review official blogs: VS Code, GitHub, Google I/O, AWS announcements
+
+2. **Key Sections to Update**
+   - **Quick Stats** - Update with latest survey data (developer counts, percentages)
+   - **What's Hot** - Reflect current trends and emerging technologies
+   - **Most Reliable AI Tools** - Add new tools, update existing tool features
+   - **Latest Updates** - Add new section or update existing with version-specific features
+   - **MCP Servers** - Add newly released servers with dates and capabilities
+   - **Last Updated** - Always update the footer with current month/year
+
+3. **Format Guidelines**
+   - Use **bold** for tool names and version numbers
+   - Include dates in parentheses for major releases (e.g., "May 2025")
+   - Use bullet points with dashes for features
+   - Keep descriptions concise (1-2 lines per feature)
+   - Add links using markdown format: [text](url)
+   - Maintain consistent emoji usage (📊, 🔥, 🏆, 🆕, 🔌, 📅)
+
+4. **Data Attribution**
+   - Always cite sources (Stack Overflow Survey year, official changelogs)
+   - Include survey sample size when available
+   - Reference specific version numbers for tools
+   - Note when features are in preview/beta vs generally available (GA)
+
+5. **Content Freshness Indicators**
+   - Mark preview/beta features appropriately
+   - Use "(coming soon)" for announced but unreleased features
+   - Include "New in [year]" subsections for clarity
+   - Update the "Last Updated" section at the bottom
+
+## Common Update Patterns
+
+### When Adding New AI Tools
+```markdown
+**[Tool Name]** - Key differentiator, main feature, pricing model
+```
+
+### When Adding Version Updates
+```markdown
+### [Tool Name] v[Version] ([Month Year])
+- **Feature Name** - Brief description of what it does
+- **Another Feature** - Brief description
+```
+
+### When Adding MCP Servers
+```markdown
+**[Server Name] ([Month Year])**
+- **Component 1** - What it does
+- **Component 2** - What it does
+- Overall capability description
+```
+
+## Git Commit Messages for Updates
+
+Follow this pattern for documentation updates:
+```
+Update coding tools documentation with [year] [topic]
+
+Major updates:
+- [Specific change 1]
+- [Specific change 2]
+- [Specific change 3]
+```
+
+## Quality Checklist
+
+Before committing updates, verify:
+- [ ] All statistics have sources cited
+- [ ] Version numbers are accurate
+- [ ] Dates are included for major releases
+- [ ] Links are properly formatted
+- [ ] Consistent markdown formatting
+- [ ] "Last Updated" section reflects current update
+- [ ] No typos or grammatical errors
+- [ ] Emoji usage is consistent with existing style
